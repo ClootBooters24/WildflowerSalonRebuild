@@ -65,7 +65,13 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-left: 2%; /* dont mind this */
+    /* margin-left: auto; */
+    /* margin-left: 2%; dont mind this */
+}
+
+#headerSocialsContainer svg {
+    cursor: pointer;
+    /* margin-left: 15%; */
 }
 
 
