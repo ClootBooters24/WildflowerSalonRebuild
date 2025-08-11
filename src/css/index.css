@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 
 body {
-    font-family: "EB Garamond", serif;
-    font-weight: 300;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
     margin: 0;
     padding: 0;
     background-color: #ffffff;
@@ -44,19 +46,19 @@ header {
     text-align: right;
 }
 
-.nav-item {
-    font-size: calc(0.2) * 1.2vw + 1rem;
-}
-
 .nav-item a {
     text-align: right;
-    color: rgb(170, 147, 190);
-    text-decoration-color: rgb(170, 147, 190);
-    text-decoration-line: none;
-    text-decoration-style: solid;
-    margin-left: 1.3vw;
-    font-size: 18.6px;
+    /* color: rgb(170, 147, 190); NOT ACCESSIBLE*/
+    color: rgb(135 108 160); 
+    /* text-decoration-color: rgb(170, 147, 190); */
+    text-decoration: none;
+    margin-left: 1.5vw;
+    font-size: calc(0.25 * 1.2vw + 1rem);
     line-height: 33px;
+}
+
+.nav-item:hover a {
+    text-decoration: underline;
 }
 
 #headerSocialsContainer {
