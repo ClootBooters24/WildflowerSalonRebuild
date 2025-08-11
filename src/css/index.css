@@ -15,11 +15,12 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    justify-content: space-between;
 }
 
 header {
-    position: absolute;
+    position: sticky;
+    z-index: 10;
+    background-color: #ffffff;
     top: 0;
     right: 0;
     left: 0;
@@ -78,6 +79,15 @@ header {
     cursor: pointer;
     margin-left: 1.5vw;
 }
+
+#heroImgContainer {
+    margin: 0 4%;
+}
+
+#heroImgContainer img{
+    width: 100%;
+}
+
 
 
 
