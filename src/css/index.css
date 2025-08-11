@@ -69,9 +69,14 @@ header {
     /* margin-left: 2%; dont mind this */
 }
 
-#headerSocialsContainer svg {
+#instagramLogo {
     cursor: pointer;
-    /* margin-left: 15%; */
+    margin-left: 3.5vw;
+}
+
+#facebookLogo {
+    cursor: pointer;
+    margin-left: 1.5vw;
 }
 
 
