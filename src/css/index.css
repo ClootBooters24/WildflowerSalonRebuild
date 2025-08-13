@@ -6,6 +6,7 @@
 :root {
     --lightPurple: #876ca0;
     --burntOrange: #ad6650;
+    --muteGreen: #f6f5ea;
 }
 
 body {
@@ -122,7 +123,7 @@ header {
     background: #aa93be;
     color: #fff;
     padding: 1rem 2.5rem;
-    /* border-radius: 8px; */
+    border-radius: 8px;
     font-size: 1.25rem;
     font-weight: bold;
     text-decoration: none;
@@ -133,6 +134,40 @@ header {
 
 .hero-btn:hover {
     background: #8c6fae;
+}
+
+#heroImgContainer2 {
+    /* margin-top: 2rem; */
+    position: relative;
+    margin: 0 4%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* aligns items to the left */
+    min-height: 300px; /* adjust as needed */
+    padding: 5rem;
+}
+
+#heroImgContainer2 img{
+    width: 100%;
+    max-width: 800px; /* adjust as needed */
+    transform: translateX(25%); /* shift image left */
+    z-index: 1;
+    position: relative;}
+
+.hero-overlay-text2 {
+    position: absolute;
+    left: 50%; /* shift overlay right */
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--lightPurple);
+    background: var(--muteGreen); /* optional: makes text readable */
+    padding: 1.2rem 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    z-index: 2;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    white-space: pre-line;
 }
 
 /* ==== 404 Page ==== */
