@@ -86,6 +86,40 @@ header {
     margin-left: 1.5vw;
 }
 
+/* ===== Main Body Styles ===== */
+#serviceMenuHeroContainer {
+    position: relative;
+    margin: 2rem 0 0 0; /* Top margin, auto left/right for centering */
+    width: 100vw;              /* Use viewport width for responsiveness */
+    max-width: 1200px;        /* Optional: limit max width on large screens */
+    box-sizing: border-box;
+}
+
+.serviceMenuImage {
+    width: 100vw;
+    display: block;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.serviceMenuTitleOverlay {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(55%, -50%); /* Center horizontally and vertically */
+    color: var(--lightPurple);
+    background: var(--muteGreen);
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 1rem 2.5rem;
+    text-align: center;
+    z-index: 2;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    border-radius: 0.5rem;
+    pointer-events: none;
+}
+
 /* ===== Footer Styles ===== */
 footer {
     padding: 2rem 4vw;
