@@ -120,6 +120,17 @@ header {
     pointer-events: none;
 }
 
+.serviceMenuContent li {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background-color: var(--muteGreen);
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    list-style-type: none;
+    font-size: 1.25rem;
+    color: var(--lightPurple);
+}
+
 /* ===== Footer Styles ===== */
 footer {
     padding: 2rem 4vw;
