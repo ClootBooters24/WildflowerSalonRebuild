@@ -89,86 +89,46 @@ header {
 }
 
 /* ===== Main Content Styles ===== */
-#heroImgContainer {
-    margin: 0 4%;
-}
-
-#heroImgContainer img{
+.container-404 {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    padding: 2rem 1rem;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    max-width: 400px;
     width: 100%;
 }
 
-.hero-overlay-text {
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: var(--lightPurple); /* or your preferred color */
-    font-size: 3rem;
-    font-weight: bold;
-    pointer-events: none;
-    text-align: center;
+.container-404 h1 {
+    font-size: 5rem;
+    margin: 0 0 1rem 0;
+    color: #b71c1c;
+    letter-spacing: 0.1em;
 }
 
-.hero-overlay-button {
-    position: absolute;
-    top: 72.5%; /* adjust as needed */
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    
+.container-404 p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #555;
 }
 
-.hero-btn {
+.container-404 a {
     display: inline-block;
-    background: #aa93be;
+    padding: 0.75rem 1.5rem;
+    background: #b71c1c;
     color: #fff;
-    padding: 1rem 2.5rem;
     border-radius: 8px;
-    font-size: 1.25rem;
-    font-weight: bold;
     text-decoration: none;
-    border: none;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    font-weight: 500;
     transition: background 0.2s;
 }
 
-.hero-btn:hover {
-    background: #8c6fae;
-}
+.container-404 a:hover {
+    background: #d32f2f;
+} 
 
-#heroImgContainer2 {
-    /* margin-top: 2rem; */
-    position: relative;
-    margin: 0 4%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start; /* aligns items to the left */
-    min-height: 300px; /* adjust as needed */
-    padding: 5rem;
-}
-
-#heroImgContainer2 img{
-    width: 100%;
-    max-width: 800px; /* adjust as needed */
-    transform: translateX(25%); /* shift image left */
-    z-index: 1;
-    position: relative;}
-
-.hero-overlay-text2 {
-    position: absolute;
-    left: 50%; /* shift overlay right */
-    top: 50%;
-    transform: translateY(-50%);
-    color: var(--lightPurple);
-    background: var(--muteGreen); /* optional: makes text readable */
-    padding: 1.2rem 2rem;
-    font-size: 2rem;
-    font-weight: bold;
-    z-index: 2;
-    border-radius: 0.5rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    white-space: pre-line;
-}
 
 /* ===== Footer Styles ===== */
 footer {
@@ -270,63 +230,6 @@ footer .footerAbout {
         max-width: 100%;
     }
 
-/* ==== Main Body ==== */
-    main {
-        margin-top: 10px; /* Adjusted for sticky header */
-    }
-
-    #heroImgContainer,
-    #heroImgContainer2 {
-        margin: 2rem 2vw 2rem 2vw; /* Add vertical margin */
-        padding: 1rem 0;
-        min-height: 250px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: relative;
-    }
-
-    #heroImgContainer img,
-    #heroImgContainer2 img {
-        max-width: 100%;
-        width: 100%;
-        height: auto;
-        margin-bottom: 1.5rem; /* Space below image */
-        transform: none;
-        position: relative;
-        z-index: 1;
-    }
-
-    .hero-overlay-text,
-    .hero-overlay-text2 {
-        position: relative; /* Remove absolute positioning for mobile */
-        font-size: 1.5rem;
-        padding: 0.5rem 1rem;
-        margin-bottom: 1rem;
-        background: var(--muteGreen);
-        color: var(--lightPurple);
-        border-radius: 0.25rem;
-        box-shadow: none;
-        width: 90vw;
-        max-width: 95vw;
-        text-align: center;
-        z-index: 2;
-    }
-
-    .hero-overlay-text2 {
-        margin-top: 1rem;
-        left: 0;
-
-    }
-
-    .hero-overlay-button {
-        position: relative;
-        margin-bottom: 1.5rem;
-        margin-top: 0.5rem;
-        text-align: center;
-        width: 100%;
-    }
-
 /* ==== Footer ==== */
     footer {
         padding: 1.5rem 3vw;
@@ -362,63 +265,6 @@ footer .footerAbout {
     .logo {
         max-height: 80px;
         max-width: 100%;
-    }
-
-/* ==== Main Body ==== */
-    main {
-        margin-top: 10px; /* Adjusted for sticky header */
-    }
-
-    #heroImgContainer,
-    #heroImgContainer2 {
-        margin: 2rem 2vw 2rem 2vw; /* Add vertical margin */
-        padding: 1rem 0;
-        min-height: 250px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: relative;
-    }
-
-    #heroImgContainer img,
-    #heroImgContainer2 img {
-        max-width: 100%;
-        width: 100%;
-        height: auto;
-        margin-bottom: 1.5rem; /* Space below image */
-        transform: none;
-        position: relative;
-        z-index: 1;
-    }
-
-    .hero-overlay-text,
-    .hero-overlay-text2 {
-        position: relative; /* Remove absolute positioning for mobile */
-        font-size: 1.5rem;
-        padding: 0.5rem 1rem;
-        margin-bottom: 1rem;
-        background: var(--muteGreen);
-        color: var(--lightPurple);
-        border-radius: 0.25rem;
-        box-shadow: none;
-        width: 90vw;
-        max-width: 95vw;
-        text-align: center;
-        z-index: 2;
-    }
-
-    .hero-overlay-text2 {
-        margin-top: 1rem;
-        left: 0; /* Reset left position */
-        transform: none; /* Reset transform */
-    }
-
-    .hero-overlay-button {
-        position: relative;
-        margin-bottom: 1.5rem;
-        margin-top: 0.5rem;
-        text-align: center;
-        width: 100%;
     }
 
 /* ==== Footer ==== */
