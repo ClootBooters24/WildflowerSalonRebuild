@@ -104,10 +104,10 @@ header {
 }
 
 .serviceMenuTitleOverlay {
-    position: absolute;
-    top: 50%;
-    left: 45%;
-    transform: translate(55%, -50%); /* Center horizontally and vertically */
+    position: flex;
+    /* top: 65%; */
+    /* left: 65%; */
+    /* transform: translate(0vw, -50%); */
     color: var(--lightPurple);
     background: var(--muteGreen);
     font-size: 2.5rem;
@@ -118,6 +118,21 @@ header {
     box-shadow: 0 2px 8px rgba(0,0,0,0.12);
     border-radius: 0.5rem;
     pointer-events: none;
+    margin: 0 auto; /* Center the title */
+    width: fit-content;
+    max-width: 90%;
+    align-items: center;
+
+}
+
+.serviceMenuContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 4vw;
+    max-width: 1200px; /* Optional: limit max width on large screens */
+    margin: 0 auto; /* Center the content */
+    text-align: center;
 }
 
 .serviceMenuContent li {
@@ -233,7 +248,6 @@ footer .footerAbout {
 
 /* ==== Main Body ==== */
 
-
 /* ==== Footer ==== */
     footer {
         padding: 1.5rem 3vw;
@@ -274,7 +288,6 @@ footer .footerAbout {
 /* ==== Main Body ==== */
 
 /* ==== Footer ==== */
-
     footer {
         padding: 1rem 2vw;
         font-size: 1rem;
