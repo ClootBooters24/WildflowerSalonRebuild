@@ -16,7 +16,7 @@ WILDFLOWERSALONREBUILD
 │   ├── meetTheTeam.html        # Meet the team page
 │   ├── newClient.html          # New client page
 │   ├── products.html           # Products page
-│   ├── serviceMenu.html        # Service menu page
+│   ├── services.html        # Service menu page
 
 │   ├── TeamMembers
 │   │   └── meet[employee].html # Individual team member pages
