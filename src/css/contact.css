@@ -55,9 +55,7 @@ header {
 
 .nav-item a {
     text-align: right;
-    /* color: rgb(170, 147, 190); NOT ACCESSIBLE*/
     color: var(--lightPurple); 
-    /* text-decoration-color: rgb(170, 147, 190); */
     text-decoration: none;
     margin-left: 1.5vw;
     font-size: calc(0.25 * 1.2vw + 1rem);
@@ -72,8 +70,6 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    /* margin-left: auto; */
-    /* margin-left: 2%; dont mind this */
 }
 
 #instagramLogo {
@@ -267,7 +263,6 @@ header {
     border: none;
 }
 
-
 /* ===== Footer Styles ===== */
 footer {
     padding: 2rem 4vw;
@@ -297,7 +292,7 @@ footer a:hover a:focus {
 }
 
 footer .footerAbout {
-    margin-right: 1.5rem; /* Adds space to the right of each link */
+    margin-right: 1.5rem;
 }
 
 /* ==== Mobile ==== */
@@ -331,15 +326,15 @@ footer .footerAbout {
     width: 100%;
     height: 100%;
     text-align: left;
-    text-decoration: none; /* Ensure no underline by default */
-    border-bottom: none;   /* Ensure no border */
+    text-decoration: none;
+    border-bottom: none;
 }
 
 .mobile-nav .nav-item a:hover,
 .mobile-nav .nav-item a:focus {
-    text-decoration: underline; /* Consistent underline on hover/focus */
-    text-underline-offset: 4px; /* Optional: makes underline more visible */
-    text-decoration-thickness: 2px; /* Optional: makes underline thicker */
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
 }
 
 /* ==== Tablet Queries ==== */
@@ -347,7 +342,6 @@ footer .footerAbout {
 /* ==== Header ==== */
     .header-container {
         position: relative;
-        /* margin-top: 1rem; */
     }    
 
     .header-nav {
@@ -369,6 +363,36 @@ footer .footerAbout {
     }
 
 /* ==== Main Body ==== */
+    .contact-columns {
+        flex-direction: column;
+        gap: 30px;
+        padding: 0 15px;
+    }
+    
+    .column {
+        width: 100%;
+    }
+    
+    .phoneNumberList li {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    
+    .address {
+        font-size: 1.5rem;
+        line-height: 1.4;
+    }
+    
+    .contact-methods {
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .map-container iframe {
+        height: 250px;
+    }
 
 /* ==== Footer ==== */
     footer {
@@ -408,9 +432,36 @@ footer .footerAbout {
     }
 
 /* ==== Main Body ==== */
-    .serviceMenuContent {
-        padding: 2rem 2vw;
-    }
+  .contact-columns {
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 15px;
+  }
+  
+  .column {
+    width: 100%;
+  }
+  
+  .phoneNumberList li {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .address {
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+  
+  .contact-methods {
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .map-container iframe {
+    height: 250px;
+  }
 
 /* ==== Footer ==== */
     footer {
