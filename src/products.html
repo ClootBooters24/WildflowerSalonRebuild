@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <title>Wildflower Salon | Products</title>
+        <link rel="icon" type="image/x-icon" href="./assets/logos/nameLogo.jpeg"/>
+        <link rel="canonical" href="https://www.wildflowersalonnwa.com/services"/>
+        
+        <!-- OG Meta -->
+        <meta property="og:site_name" content="Wildflower Salon"/>
+        <meta property="og:title" content="Wildflower Salon | Products"/>
+        <meta property="og:url" content="https://www.wildflowersalonnwa.com"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:image" content="./assets/logos/nameLogo.jpeg"/>
+        <meta property="og:image:width" content="1500"/>
+        <meta property="og:image:height" content="1366"/>
+
+        <!-- Item Prop -->
+        <meta itemprop="name" content="Wildflower Salon"/>
+        <meta itemprop="url" content="https://www.wildflowersalonnwa.com"/>
+        <meta itemprop="thumbnailUrl" content="./assets/logos/nameLogo.jpeg"/>
+        <link rel="image_src" href="./assets/logos/nameLogo.jpeg" />
+
+        <!-- Name -->
+        <meta name="twitter:title" content="Wildflower Salon | Products"/>
+        <meta name="twitter:image" content="./assets/logos/nameLogo.jpeg"/>
+        <meta name="twitter:url" content="https://www.wildflowersalonnwa.com"/>
+        <meta name="twitter:card" content="summary"/>
+        <meta name="description" content="" />
+
+        <!-- JSON-LD -->
+        <!-- 1. Website Identity Schema -->
+        <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "url": "https://www.wildflowersalonnwa.com",
+            "name": "Wildflower Salon",
+            "description": "",
+            "image": ""
+        }
+        </script>
+
+        <!-- 2. Organization Schema -->
+        <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "legalName": "Wildflower Salon",
+            "address": "813 West Central Avenue, Bentonville, AR 72712, United States",
+            "telephone": "+14796446583",
+            "sameAs": [
+                "https://www.instagram.com/salon_wildflower",
+                "https://www.facebook.com/wildflowersalonbville"
+            ]
+        }
+        </script>
+
+        <!-- 3. Local Business Schema -->
+        <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "HairSalon",
+            "name": "Wildflower Salon",
+            "image": "",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "813 West Central Avenue",
+                "addressLocality": "Bentonville",
+                "addressRegion": "AR",
+                "postalCode": "72712",
+                "addressCountry": "US"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 36.3719977,
+                "longitude": -94.2207612
+            },
+            "telephone": "+14796446583",
+            "priceRange": "$$"
+        }
+        </script>
+
+        <link rel="stylesheet" href="css/products.css">
+    </head>
+
+    <body>
+        <div id="bodyWrapper">
+            <header>
+                <div class="header-container">
+                    <a href="./index.html"><img src="./assets/logos/logo.png" alt="Wildflower Salon Logo" class="logo"></a>
+                    <button class="hamburger" id="hamburgerBtn" aria-label="Open Menu">
+<!-- Needs to be custom -->
+                        &#9776;
+                    </button>
+                    <nav class="header-nav" id="desktopNav" aria-label="Main Navigation">
+                        <div class="nav-item"><a href="./meetTheTeam.html">MEET THE TEAM</a></div>
+                        <div class="nav-item"><a href="./services.html">SERVICE MENU</a></div>
+                        <div class="nav-item"><a href="./products.html">PRODUCTS</a></div>
+                        <div class="nav-item"><a href="./contact.html">CONTACT</a></div>
+                    </nav>
+                    <nav class="mobile-nav" id="mobileNav" aria-label="Main Navigation">
+                        <div class="nav-item"><a href="./meetTheTeam.html">MEET THE TEAM</a></div>
+                        <div class="nav-item"><a href="./services.html">SERVICE MENU</a></div>
+                        <div class="nav-item"><a href="./products.html">PRODUCTS</a></div>
+                        <div class="nav-item"><a href="./contact.html">CONTACT</a></div>
+                    </nav>
+                    <div id="headerSocialsContainer">
+                        <a href="https://www.instagram.com/wildflowersalonbville/?hl=en" id="instagramLogo" target="_blank" rel="noopener noreferrer"><img src="assets/logos/instagramLogo.svg" type="image/svg+xml" alt="Instagram Logo"></a>
+                        <a href="https://www.facebook.com/wildflowersalonnwa/" id="facebookLogo" target="_blank" rel="noopener noreferrer"><img src="assets/logos/facebookLogo.svg" type="image/svg+xml" alt="Facebook Logo"></a>
+                    </div>
+                </div>
+            </header>
+
+            <main>
+                <div id="serviceMenuHeroContainer">
+                    <img src="./assets/products/amikaLogo.gif" alt="Amika Gif" class="amikaLogoGif">
+                </div>
+            </main>
+
+            <footer>
+                <h4 class="footer-title">Wildflower Salon</h4>
+                <p><a href="./meetTheTeam.html" class="footerAbout">About</a><a href="./contact.html">Contact</a></p>
+                <p><a href="mailto:wflowersalon@gmail.com">wflowersalon@gmail.com</a></p>
+                <p><a href="tel:+14793674515">479-367-4515</a></p>
+
+                <p>&copy; <span id="copyright-year"></span> Wildflower Salon. All rights reserved.</p>
+                <p class="creatorNote">
+                    <a href="https://ClootBooters24.github.io" target="_blank" rel="noopener" style="color:#888888;text-decoration:underline;font-size:1rem">Built by Clayton Warstler</a>
+                </p>
+            </footer>
+        </div>
+        <script src="js/index.js"></script>
+    </body>
+</html>
