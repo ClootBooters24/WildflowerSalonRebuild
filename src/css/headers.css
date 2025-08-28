@@ -23,7 +23,7 @@ body {
 }
 
 /* ===== Header Styles ===== */
-/* header {
+header {
     position: sticky;
     z-index: 10;
     background-color: #ffffff;
@@ -80,118 +80,10 @@ body {
 #facebookLogo {
     cursor: pointer;
     margin-left: 1.5vw;
-} */
-
-/* ===== Main Body Styles ===== */
-#serviceMenuHeroContainer {
-    position: relative;
-    width: 100%;
-    margin: 2rem 0;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
-.amikaLogoGif {
-    width: 100%;
-    max-height: 500px;
-    object-fit: cover;
-}
-
-/* Products Section */
-.products-section {
-    max-width: 1200px;
-    margin: 3rem auto;
-    padding: 0 20px;
-}
-
-.products-title {
-    text-align: center;
-    color: var(--lightPurple);
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
-    text-decoration: underline;
-}
-
-.product-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 40px;
-    margin-top: 2rem;
-}
-
-.product-card {
-    background-color: var(--muteGreen);
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-    transition: transform 0.3s ease;
-}
-
-.product-card:hover {
-    transform: translateY(-5px);
-}
-
-.product-image {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-}
-
-.product-info {
-    padding: 1.5rem;
-}
-
-.product-name {
-    color: var(--lightPurple);
-    font-size: 1.8rem;
-    margin: 0 0 1rem 0;
-    text-align: center;
-}
-
-.product-description {
-    color: var(--burntOrange);
-    font-size: 1.2rem;
-    line-height: 1.6;
-    text-align: center;
-}
-
-/* ===== Footer Styles ===== */
-/* footer {
-    padding: 2rem 4vw;
-    text-align: center;
-    font-size: 1.25rem;
-    text-decoration: none;
-    margin-top: auto;
-}
-
-footer h4 {
-    margin: 0;
-    font-size: 2.5rem;
-    color: var(--lightPurple);
-}
-
-footer p {
-    margin: 0.5rem 0;
-    color: var(--burntOrange);
-}
-
-footer a {
-    color: var(--burntOrange);
-    text-decoration: none;
-}
-
-footer a:hover, footer a:focus {
-    text-decoration: underline;
-}
-
-footer .footerAbout {
-    margin-right: 1.5rem;
-} */
 
 /* ==== Mobile ==== */
-/* .hamburger {
+.hamburger {
     display: none;
     background: none;
     border: none;
@@ -230,12 +122,11 @@ footer .footerAbout {
     text-decoration: underline;
     text-underline-offset: 4px;
     text-decoration-thickness: 2px;
-} */
+}
 
 /* ==== Tablet Queries ==== */
 @media (min-width: 601px) and (max-width: 1024px) {
-    /* ==== Header ==== */
-    /* .header-container {
+    .header-container {
         position: relative;
     }    
 
@@ -255,28 +146,11 @@ footer .footerAbout {
     .logo {
         max-height: 100px;
         max-width: 100%;
-    } */
-
-    /* ==== Main Body ==== */
-    .product-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
     }
-
-    /* ==== Footer ==== */
-    /* footer {
-        padding: 1.5rem 3vw;
-        font-size: 1.5rem;
-    }
-
-    footer h4 {
-        font-size: 2.5rem;
-    } */
 }
 
 /* ==== Mobile Queries ==== */
 @media (max-width: 600px) {
-    /* ==== Header ====
     .header-container {
         position: relative;
         margin-top: 1rem;
@@ -298,33 +172,5 @@ footer .footerAbout {
     .logo {
         max-height: 80px;
         max-width: 100%;
-    } */
-
-    /* ==== Main Body ==== */
-    .product-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
     }
-    
-    .products-title {
-        font-size: 2rem;
-    }
-    
-    .product-name {
-        font-size: 1.5rem;
-    }
-    
-    .product-description {
-        font-size: 1.1rem;
-    }
-
-    /* ==== Footer ==== */
-    /* footer {
-        padding: 1rem 2vw;
-        font-size: 1rem;
-    }
-
-    footer h4 {
-        font-size: 1.5rem;
-    } */
 }

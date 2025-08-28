@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+/* ===== Global Styles ===== */
+:root {
+    --lightPurple: #876ca0;
+    --burntOrange: #ad6650;
+    --muteGreen: #f6f5ea;
+}
+
+body {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+#bodyWrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* ===== Footer Styles ===== */
+footer {
+    padding: 2rem 4vw;
+    text-align: center;
+    font-size: 1.25rem;
+    text-decoration: none;
+    margin-top: auto;
+}
+
+footer h4 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: var(--lightPurple);
+}
+
+footer p {
+    margin: 0.5rem 0;
+    color: var(--burntOrange);
+}
+
+footer a {
+    color: var(--burntOrange);
+    text-decoration: none;
+}
+
+footer a:hover, footer a:focus {
+    text-decoration: underline;
+}
+
+footer .footerAbout {
+    margin-right: 1.5rem;
+}
+
+/* ==== Tablet Queries ==== */
+@media (min-width: 601px) and (max-width: 1024px) {
+    footer {
+        padding: 1.5rem 3vw;
+        font-size: 1.5rem;
+    }
+
+    footer h4 {
+        font-size: 2.5rem;
+    }
+}
+
+/* ==== Mobile Queries ==== */
+@media (max-width: 600px) {
+    footer {
+        padding: 1rem 2vw;
+        font-size: 1rem;
+    }
+
+    footer h4 {
+        font-size: 1.5rem;
+    }
+}
