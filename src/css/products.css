@@ -22,66 +22,6 @@ body {
     min-height: 100vh;
 }
 
-/* ===== Header Styles ===== */
-/* header {
-    position: sticky;
-    z-index: 10;
-    background-color: #ffffff;
-    top: 0;
-    right: 0;
-    left: 0;
-}
-
-.header-container {
-    display: flex;
-    flex-wrap: nowrap;
-    padding: 1.5vw 4vw;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.logo {
-    width: auto;
-    max-height: 197px;
-    max-width: 100%;
-}
-
-.header-nav{
-    display: flex;
-    padding-left: 3vw;
-    margin-left: auto;
-    text-align: right;
-}
-
-.nav-item a {
-    text-align: right;
-    color: var(--lightPurple); 
-    text-decoration: none;
-    margin-left: 1.5vw;
-    font-size: calc(0.25 * 1.2vw + 1rem);
-    line-height: 33px;
-}
-
-.nav-item:hover a {
-    text-decoration: underline;
-}
-
-#headerSocialsContainer {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-#instagramLogo {
-    cursor: pointer;
-    margin-left: 3.5vw;
-}
-
-#facebookLogo {
-    cursor: pointer;
-    margin-left: 1.5vw;
-} */
-
 /* ===== Main Body Styles ===== */
 #serviceMenuHeroContainer {
     position: relative;
@@ -157,149 +97,17 @@ body {
     text-align: center;
 }
 
-/* ===== Footer Styles ===== */
-/* footer {
-    padding: 2rem 4vw;
-    text-align: center;
-    font-size: 1.25rem;
-    text-decoration: none;
-    margin-top: auto;
-}
-
-footer h4 {
-    margin: 0;
-    font-size: 2.5rem;
-    color: var(--lightPurple);
-}
-
-footer p {
-    margin: 0.5rem 0;
-    color: var(--burntOrange);
-}
-
-footer a {
-    color: var(--burntOrange);
-    text-decoration: none;
-}
-
-footer a:hover, footer a:focus {
-    text-decoration: underline;
-}
-
-footer .footerAbout {
-    margin-right: 1.5rem;
-} */
-
-/* ==== Mobile ==== */
-/* .hamburger {
-    display: none;
-    background: none;
-    border: none;
-    font-size: 2.5rem;
-    color: var(--lightPurple);
-    cursor: pointer;
-    margin-left: auto;
-    z-index: 20;
-}
-
-.mobile-nav {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100vw;
-    background: #fff;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    padding: 1rem 0;
-    z-index: 15;
-}
-
-.mobile-nav .nav-item a {
-    color: var(--lightPurple);
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-align: left;
-    text-decoration: none;
-    border-bottom: none;
-}
-
-.mobile-nav .nav-item a:hover,
-.mobile-nav .nav-item a:focus {
-    text-decoration: underline;
-    text-underline-offset: 4px;
-    text-decoration-thickness: 2px;
-} */
-
 /* ==== Tablet Queries ==== */
 @media (min-width: 601px) and (max-width: 1024px) {
-    /* ==== Header ==== */
-    /* .header-container {
-        position: relative;
-    }    
-
-    .header-nav {
-        display: none;
-    }
-    .hamburger {
-        display: block;
-    }
-    .mobile-nav {
-        display: none;
-    }
-    .mobile-nav.open {
-        display: flex;
-    }
-
-    .logo {
-        max-height: 100px;
-        max-width: 100%;
-    } */
-
-    /* ==== Main Body ==== */
+/* ==== Main Body ==== */
     .product-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 30px;
     }
-
-    /* ==== Footer ==== */
-    /* footer {
-        padding: 1.5rem 3vw;
-        font-size: 1.5rem;
-    }
-
-    footer h4 {
-        font-size: 2.5rem;
-    } */
 }
 
 /* ==== Mobile Queries ==== */
 @media (max-width: 600px) {
-    /* ==== Header ====
-    .header-container {
-        position: relative;
-        margin-top: 1rem;
-    }    
-
-    .header-nav {
-        display: none;
-    }
-    .hamburger {
-        display: block;
-    }
-    .mobile-nav {
-        display: none;
-    }
-    .mobile-nav.open {
-        display: flex;
-    }
-
-    .logo {
-        max-height: 80px;
-        max-width: 100%;
-    } */
-
     /* ==== Main Body ==== */
     .product-grid {
         grid-template-columns: 1fr;
@@ -317,14 +125,4 @@ footer .footerAbout {
     .product-description {
         font-size: 1.1rem;
     }
-
-    /* ==== Footer ==== */
-    /* footer {
-        padding: 1rem 2vw;
-        font-size: 1rem;
-    }
-
-    footer h4 {
-        font-size: 1.5rem;
-    } */
 }
