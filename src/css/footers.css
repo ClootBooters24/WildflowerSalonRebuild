@@ -55,6 +55,12 @@ footer .footerAbout {
     margin-right: 1.5rem;
 }
 
+.creatorNote a {
+    color: #888888;
+    text-decoration: underline;
+    font-size: 1rem;
+}
+
 /* ==== Tablet Queries ==== */
 @media (min-width: 601px) and (max-width: 1024px) {
     footer {

@@ -1,5 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap'); */
-
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 
 /* ===== Global Styles ===== */
@@ -25,50 +23,95 @@ body {
 }
 
 /* ===== Main Content Styles ===== */
-.container-404 {
-    justify-content: center;
+.error404-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    padding: 2rem;
+    background-color: var(--muteGreen);
+    margin: 2rem 4vw;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.error404-content {
     text-align: center;
-    padding: 2rem 1rem;
-    background: #fff;
-    border-radius: 16px;
-    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
-    max-width: 400px;
-    width: 100%;
+    max-width: 600px;
 }
 
-.container-404 h1 {
-    font-size: 5rem;
-    margin: 0 0 1rem 0;
-    color: #b71c1c;
-    letter-spacing: 0.1em;
+.error404-content h1 {
+    font-size: 8rem;
+    margin: 0;
+    color: var(--lightPurple);
+    line-height: 1;
 }
 
-.container-404 p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-    color: #555;
+.error404-content h2 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    color: var(--lightPurple);
 }
 
-.container-404 a {
+.error404-content p {
+    font-size: 1.5rem;
+    color: var(--burntOrange);
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
+}
+
+.home-btn {
     display: inline-block;
-    padding: 0.75rem 1.5rem;
-    background: #b71c1c;
-    color: #fff;
+    background: var(--lightPurple);
+    color: white;
+    padding: 1rem 2.5rem;
     border-radius: 8px;
+    font-size: 1.25rem;
     text-decoration: none;
-    font-weight: 500;
-    transition: background 0.2s;
+    transition: background 0.3s ease;
 }
 
-.container-404 a:hover {
-    background: #d32f2f;
-} 
+.home-btn:hover {
+    background: #73598a;
+    text-decoration: none;
+}
 
 /* ==== Tablet Queries ==== */
 @media (min-width: 601px) and (max-width: 1024px) {
+    .error404-container {
+        margin: 1rem 2vw;
+        padding: 1.5rem;
+    }
+    
+    .error404-content h1 {
+        font-size: 5rem;
+    }
+    
+    .error404-content h2 {
+        font-size: 2rem;
+    }
+    
+    .error404-content p {
+        font-size: 1.2rem;
+    }
 }
 
 /* ==== Mobile Queries ==== */
 @media (max-width: 600px) {
+    .error404-content h1 {
+        font-size: 4rem;
+    }
+    
+    .error404-content h2 {
+        font-size: 1.8rem;
+    }
+    
+    .error404-content p {
+        font-size: 1.1rem;
+    }
+    
+    .home-btn {
+        padding: 0.8rem 2rem;
+        font-size: 1.1rem;
+    }
 }
