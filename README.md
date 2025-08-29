@@ -13,7 +13,7 @@ WILDFLOWERSALONREBUILD
 │   ├── index.html              # Main page of the website
 │   ├── 404.html                # 404 page for incorrect links
 │   ├── contact.html            # Contact page
-│   ├── meetTheTeam.html        # Meet the team page
+│   ├── meet-the-team.html        # Meet the team page
 │   ├── newClient.html          # New client page
 │   ├── products.html           # Products page
 │   ├── services.html        # Service menu page
