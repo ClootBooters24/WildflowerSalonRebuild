@@ -1,3 +1,4 @@
+# Security Headers Configuration
 /*
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
   X-Frame-Options: ALLOW-FROM https://https://www.google.com/maps/

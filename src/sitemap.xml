@@ -1,5 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+        <loc>https://www.wildflowersalonnwa.com/</loc>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://www.wildflowersalonnwa.com/404</loc>
+        <priority>0.01</priority>
+    </url>
+    <url>
+        <loc>https://www.wildflowersalonnwa.com/services</loc>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.wildflowersalonnwa.com/contact</loc>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.wildflowersalonnwa.com/meet-the-team</loc>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.wildflowersalonnwa.com/products</loc>
+        <priority>0.80</priority>
+    </url>
+
+    <!-- Example team member pages, add more as needed -->
+    <url>
+        <loc>https://www.wildflowersalonnwa.com/TeamMembers/meet-ashley</loc>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://www.wildflowersalonnwa.com/TeamMembers/meet-averie</loc>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://www.wildflowersalonnwa.com/TeamMembers/meet-gracie</loc>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://www.wildflowersalonnwa.com/TeamMembers/meet-joyce</loc>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://www.wildflowersalonnwa.com/TeamMembers/meet-katie</loc>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://www.wildflowersalonnwa.com/TeamMembers/meet-kennedi</loc>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://www.wildflowersalonnwa.com/TeamMembers/meet-taylor</loc>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://www.wildflowersalonnwa.com/TeamMembers/meet-tiffany</loc>
+        <priority>0.64</priority>
     </url>
 </urlset>
