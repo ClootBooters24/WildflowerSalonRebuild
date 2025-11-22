@@ -27,6 +27,10 @@
 
     <!-- Example team member pages, add more as needed -->
     <url>
+        <loc>https://www.wildflowersalonnwa.com/TeamMembers/meet-ariel</loc>
+        <priority>0.64</priority>
+    </url>
+    <url>
         <loc>https://www.wildflowersalonnwa.com/TeamMembers/meet-ashley</loc>
         <priority>0.64</priority>
     </url>
