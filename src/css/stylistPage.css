@@ -151,3 +151,11 @@ body {
         max-width: 250px;
     }
 }
+
+/* Specific zoom/crop for Joyce's photo only */
+#joyce-image {
+    transform: scale(1.2);
+    transition: transform 0.25s ease;
+    object-fit: cover;
+    object-position: 50% 30%;
+}
