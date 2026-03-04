@@ -111,6 +111,44 @@ body {
     text-decoration: none;
 }
 
+.community-support {
+    margin: 2rem auto 3rem;
+    padding: 2rem;
+    max-width: 900px;
+    background: var(--muteGreen);
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.community-support h2 {
+    color: var(--lightPurple);
+    font-size: 2.2rem;
+    margin: 0 0 1rem 0;
+}
+
+.community-support p {
+    color: var(--burntOrange);
+    font-size: 1.3rem;
+    line-height: 1.5;
+    margin: 0 0 1.5rem 0;
+}
+
+.community-support-link {
+    display: inline-block;
+    background: var(--lightPurple);
+    color: #fff;
+    padding: 0.85rem 1.75rem;
+    border-radius: 8px;
+    font-size: 1.15rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.community-support-link:hover {
+    background: #73598a;
+}
+
 /* ==== Tablet Queries ==== */
 @media (min-width: 601px) and (max-width: 1024px) {
 /* ==== Main Body ==== */
@@ -178,6 +216,19 @@ body {
         text-align: center;
         width: 100%;
     }
+
+    .community-support {
+        margin: 1rem 2vw 2rem 2vw;
+        padding: 1.5rem;
+    }
+
+    .community-support h2 {
+        font-size: 1.8rem;
+    }
+
+    .community-support p {
+        font-size: 1.2rem;
+    }
 }
 
 /* ==== Mobile Queries ==== */
@@ -237,5 +288,18 @@ body {
         margin-top: 0.5rem;
         text-align: center;
         width: 100%;
+    }
+
+    .community-support {
+        margin: 1rem 2vw 2rem 2vw;
+        padding: 1.25rem;
+    }
+
+    .community-support h2 {
+        font-size: 1.5rem;
+    }
+
+    .community-support p {
+        font-size: 1.1rem;
     }
 }
