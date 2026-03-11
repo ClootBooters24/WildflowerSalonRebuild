@@ -21,9 +21,7 @@ WILDFLOWERSALONREBUILD
 │   ├── css
 │   │   └── styles.css          # Styles for the website
 │   ├── js
-│   │   └── scripts.js          # JavaScript for interactivity
-│   └── assets
-│       └──                     # Directory for images, logos, etc.
+│       └── scripts.js          # JavaScript for interactivity
 ├── .gitattributes              # Git attributes file
 └── README.md                   # Documentation for the project
 ```
