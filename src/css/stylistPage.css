@@ -30,6 +30,13 @@ body {
     margin-bottom: 2rem;
 }
 
+.partner-salon-logo {
+    display: block;
+    max-width: 220px;
+    width: 100%;
+    margin: 0 auto 1.25rem;
+}
+
 .stylist-hero h1 {
     color: var(--lightPurple);
     font-size: 3rem;
