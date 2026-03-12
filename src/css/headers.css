@@ -82,6 +82,42 @@ header {
     margin-left: 1.5vw;
 }
 
+.beauty-standard-button {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 4.4rem;
+    min-width: 4.4rem;
+    min-height: 4.4rem;
+    margin-left: 1.5vw;
+    padding: 0.35rem;
+    border: 1.5px solid var(--lightPurple);
+    border-radius: 1.35rem;
+    background: linear-gradient(180deg, #ffffff 0%, #f8f4fb 100%);
+    color: var(--lightPurple);
+    text-decoration: none;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.beauty-standard-button span {
+    display: block;
+    font-size: 0.6rem;
+    line-height: 1.05;
+    letter-spacing: 0.08em;
+    text-align: center;
+}
+
+.beauty-standard-button:hover,
+.beauty-standard-button:focus-visible {
+    background: var(--lightPurple);
+    color: #ffffff;
+    box-shadow: 0 0.35rem 0.85rem rgba(135, 108, 160, 0.2);
+    transform: translateY(-1px);
+}
+
 /* ==== Mobile ==== */
 .hamburger {
     display: none;
@@ -147,6 +183,16 @@ header {
         max-height: 100px;
         max-width: 100%;
     }
+
+    .beauty-standard-button {
+        width: 4rem;
+        min-width: 4rem;
+        min-height: 4rem;
+    }
+
+    .beauty-standard-button span {
+        font-size: 0.54rem;
+    }
 }
 
 /* ==== Mobile Queries ==== */
@@ -172,5 +218,31 @@ header {
     .logo {
         max-height: 80px;
         max-width: 100%;
+    }
+
+    #headerSocialsContainer {
+        margin-left: 0.75rem;
+    }
+
+    #instagramLogo {
+        margin-left: 0;
+    }
+
+    #facebookLogo,
+    .beauty-standard-button {
+        margin-left: 0.5rem;
+    }
+
+    .beauty-standard-button {
+        width: 3.7rem;
+        min-width: 3.7rem;
+        min-height: 3.7rem;
+        padding: 0.3rem;
+        border-radius: 1.15rem;
+    }
+
+    .beauty-standard-button span {
+        font-size: 0.5rem;
+        letter-spacing: 0.06em;
     }
 }
