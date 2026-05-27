@@ -87,6 +87,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     width: 4.4rem;
     min-width: 4.4rem;
     min-height: 4.4rem;
@@ -104,10 +105,13 @@ header {
 
 .beauty-standard-button span {
     display: block;
+    width: 100%;
+    margin: 0;
     font-size: 0.6rem;
     line-height: 1.05;
     letter-spacing: 0.08em;
     text-align: center;
+    transform: translateX(0.04em);
 }
 
 .beauty-standard-button:hover,
