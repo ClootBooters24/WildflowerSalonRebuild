@@ -110,6 +110,16 @@ body {
     background-color: #73598a;
 }
 
+.booking-status-inline {
+    font-size: 0.95rem;
+    font-weight: 750;
+    color: #a13d3d;
+    line-height: 1.2;
+    text-align: center;
+    align-self: center;
+    margin-top: -8px;
+}
+
 .link-icon {
     margin-right: 10px;
     font-size: 1.2rem;
