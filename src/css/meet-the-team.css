@@ -109,6 +109,7 @@ body {
 /* Adjust Priscilla's image position */
 .team-member:nth-child(1) .team-image {
     object-position: center 25%;
+    transform: scale(1.05);
 }
 
 /* Adjust Taylor's image position */
