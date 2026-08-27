@@ -106,6 +106,16 @@ body {
     object-position: center 15%;
 }
 
+/* Adjust Priscilla's image position */
+.team-member:nth-child(1) .team-image {
+    object-position: center 25%;
+}
+
+/* Adjust Taylor's image position */
+.team-member:nth-child(8) .team-image {
+    object-position: center 25%;
+}
+
 /* Name link styling */
 .name-link {
     text-decoration: none;
