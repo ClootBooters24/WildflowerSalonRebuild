@@ -109,13 +109,13 @@ body {
 /* Adjust Priscilla's image position */
 .team-member:nth-child(1) .team-image {
     object-position: center 35%;
-    transform: scale(1.1);
+    transform: scale(1.15);
 }
 
 /* Adjust Taylor's image position */
 .team-member:nth-child(8) .team-image {
     object-position: center 25%;
-    transform: scale(1.1);
+    transform: scale(1.15);
 }
 
 /* Name link styling */
